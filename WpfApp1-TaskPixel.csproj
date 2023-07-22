@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows7.0</TargetFramework>
+    <RootNamespace>WpfApp1_TaskPixel</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <StartupObject></StartupObject>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="back.png" />
+    <None Remove="carpet.png" />
+    <None Remove="file.png" />
+    <None Remove="foward.png" />
+    <None Remove="ScanDriver.jpg" />
+    <None Remove="ScanDriver.png" />
+    <None Remove="searchbar.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="back.png" />
+    <Resource Include="carpet.png" />
+    <Resource Include="file.png" />
+    <Resource Include="foward.png" />
+    <Resource Include="ScanDriver.jpg" />
+    <Resource Include="searchbar.png" />
+  </ItemGroup>
+
+</Project>
