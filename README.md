@@ -1,2 +1,8 @@
 # DriverScanTask
-Welcome to the Drive Scanner System! This user guide will help you get started with the application and explain how to use its features to explore and scan drives on your computer.
+
+
+- In order to Test the solution, simply run the .exe file called 'DriverScan-CJR' inside the CJR-DriverScan folder.
+- The Source Code is uploaded separetly within the Release App as well.
+- Please if there is any issues don`t hesitate contacting with me!
+  
+- Thanks for your time :)
